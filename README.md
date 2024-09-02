@@ -62,7 +62,7 @@ A simple react application which includes a fundamental structure for advanced p
 | `components`   | Small, reusable UI components.                                                                                          |
 | `configs`      | Configurations, e.g. for i18next.                                                                                       |
 | `features`     | (Optional) Encapsulated features. Allows individual (de-)activation; but, often hard to separate from main application. |
-| `hooks`        | (Optional) Reusable hooks for state management.                                                                         |
+| `hooks`        | Reusable hooks for state management.                                                                                    |
 | `layout`       | Reusable layout components.                                                                                             |
 | `models`       | Domain models with business logic.                                                                                      |
 | `modules`      | (Optional) Complex, reusable UI components.                                                                             |
