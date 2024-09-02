@@ -18,7 +18,7 @@ A simple react application which includes a fundamental structure for advanced p
 
 ### Folder structure
 
-```javascript
+```
 /
 ├── public
 ├── src
@@ -57,32 +57,18 @@ A simple react application which includes a fundamental structure for advanced p
 
 ### Notable folders
 
-+----------------+------------------------------------------------------------------------------------------------+
-| `components`   | Small, reusable UI components.                                                                 |
-+----------------+------------------------------------------------------------------------------------------------+
-| `configs`      | Configurations, e.g. for i18next.                                                              |
-+----------------+------------------------------------------------------------------------------------------------+
-| `features`     | (Optional) Encapsulated features.                                                              |
-|                | Allows individual (de-)activation; but, often hard to separate from main application.          |
-+----------------+------------------------------------------------------------------------------------------------+
-| `hooks`        | (Optional) Reusable hooks for state management.                                                |
-+----------------+------------------------------------------------------------------------------------------------+
-| `layout`       | Reusable layout components.                                                                    |
-+----------------+------------------------------------------------------------------------------------------------+
-| `models`       | Domain models with business logic.                                                             |
-+----------------+------------------------------------------------------------------------------------------------+
-| `modules`      | (Optional) Complex, reusable UI components.                                                    |
-+----------------+------------------------------------------------------------------------------------------------+
-| `pages`        | Pages of the application. Each page may hold dedicated hooks and components.                   |
-+----------------+------------------------------------------------------------------------------------------------+
-| `routes`       | Routes of the application.                                                                     |
-+----------------+------------------------------------------------------------------------------------------------+
-| `services`     | Services to communicate with external endpoints.                                               |
-+----------------+------------------------------------------------------------------------------------------------+
-| `styles`       | Styles of the application.                                                                     |
-+----------------+------------------------------------------------------------------------------------------------+
-| `types`        | Types of the application.                                                                      |
-+----------------+------------------------------------------------------------------------------------------------+
-| `utils`        | Common utility functions and constants.                                                        |
-+----------------+------------------------------------------------------------------------------------------------+
+| `components`   | Small, reusable UI components.                                                                                          |
+|----------------|-------------------------------------------------------------------------------------------------------------------------|
+| `configs`      | Configurations, e.g. for i18next.                                                                                       |
+| `features`     | (Optional) Encapsulated features. Allows individual (de-)activation; but, often hard to separate from main application. |
+| `hooks`        | (Optional) Reusable hooks for state management.                                                                         |
+| `layout`       | Reusable layout components.                                                                                             |
+| `models`       | Domain models with business logic.                                                                                      |
+| `modules`      | (Optional) Complex, reusable UI components.                                                                             |
+| `pages`        | Pages of the application. Each page may hold dedicated hooks and components.                                            |
+| `routes`       | Routes of the application.                                                                                              |
+| `services`     | Services to communicate with external endpoints.                                                                        |
+| `styles`       | Styles of the application.                                                                                              |
+| `types`        | Types of the application.                                                                                               |
+| `utils`        | Common utility functions and constants.                                                                                 |
 
