@@ -1,0 +1,12 @@
+{
+    "preset": "ts-jest",
+    "transform": {
+        "^.+\\.(ts|tsx)?$": "ts-jest",
+        "^.+\\.(js|jsx)$": "babel-jest"
+    },
+    "moduleNameMapper": {
+        "\\.(css|scss)$": "<rootDir>/src/tests/styles/styleMock.json",
+        "^@/(.*)$": "<rootDir>/src/$1"
+    },
+    "testEnvironment": "jsdom"
+}
