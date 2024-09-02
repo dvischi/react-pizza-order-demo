@@ -72,4 +72,3 @@ A simple react application which includes a fundamental structure for advanced p
 | `styles`       | Styles of the application.                                                                                              |
 | `types`        | Types of the application.                                                                                               |
 | `utils`        | Common utility functions and constants.                                                                                 |
-

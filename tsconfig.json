@@ -1,6 +1,6 @@
 {
     "extends": "@tsconfig/node18/tsconfig.json",
-    "include": ["src/**/*", "tsconfig.paths.json", "src/configs/i18n.config.ts"],
+    "include": ["src/**/*", "tsconfig.paths.json"],
     "exclude": ["**/*.spec.ts", "node_modules"],
     "compilerOptions": {
         "lib": ["dom"],

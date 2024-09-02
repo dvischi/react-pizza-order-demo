@@ -8,7 +8,7 @@ import useOrderItems from "./useOrderItems";
 import OrderItem from "@/models/OrderItem";
 import { DiscountStrategy } from "@/types/DiscountStrategyTypes";
 import DiscountStrategyClassic from "@/models/DiscountStrategyClassig";
-import useSelfPickUp from "./useDeliveyr";
+import useSelfPickUp from "./useSelfPickUp";
 
 const commonCheckboxProps: {className: string, type: "checkbox" | "radio", name: string} = {
     className: "order-item", type: "radio", name: "order-item"
