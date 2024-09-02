@@ -57,6 +57,8 @@ A simple react application which includes a fundamental structure for advanced p
 
 ### Notable folders
 
+| Folder         | Description                                                                                                             |
+|----------------|-------------------------------------------------------------------------------------------------------------------------|
 | `components`   | Small, reusable UI components.                                                                                          |
 | `configs`      | Configurations, e.g. for i18next.                                                                                       |
 | `features`     | (Optional) Encapsulated features. Allows individual (de-)activation; but, often hard to separate from main application. |
