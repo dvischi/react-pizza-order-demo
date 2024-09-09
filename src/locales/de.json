@@ -1,0 +1,14 @@
+{
+    "translation": {
+    },
+    "home": {
+        "header": "Home [DE]"
+    },
+    "order": {
+        "header": "Bestellung",
+        "deal": "!Empfehlung!",
+        "delivery": "Ich möchte meine Pizza selbst abholen und {{discount}} EUR sparen.",
+        "delivery_self_pick_up": "Die Pizza wartet auf dich!",
+        "order": "Bestellen für {{total}} EUR"
+    }
+}

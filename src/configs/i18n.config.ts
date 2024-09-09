@@ -1,22 +1,12 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import enLocales from "@/locales/en.json"
+import deLocales from "@/locales/de.json"
+
 
 const resources = {
-  en: {
-    translation: {
-      // default namespace
-    },
-    home: {
-      "header": "Home",
-    },
-    order: {
-      "header": "Order",
-      "deal": "!Today's Deal!",
-      "delivery": "I would like to pick up the pizza myself and save ${{discount}}.",
-      "delivery_self_pick_up": "The pizza is waiting for you!",
-      "order": "Order Pizza For ${{total}}",
-    },
-  },
+  en: enLocales,
+  de: deLocales
 };
 
 i18n
